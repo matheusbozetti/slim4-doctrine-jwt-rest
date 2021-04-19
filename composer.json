@@ -1,0 +1,18 @@
+{
+    "require": {
+        "slim/slim": "4.*",
+        "slim/psr7": "^1.3",
+        "doctrine/orm": "^2.8",
+        "vlucas/phpdotenv": "^5.3",
+        "php-di/slim-bridge": "^3.1",
+        "tuupola/slim-jwt-auth": "^3.5",
+        "ramsey/uuid": "^4.1",
+        "ramsey/uuid-doctrine": "^1.6",
+        "middlewares/trailing-slash": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "./src"
+        }
+    }
+}
